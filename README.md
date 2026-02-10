@@ -20,29 +20,29 @@ Este proyecto tiene como propósito analizar el comportamiento de los clientes d
 ## Etapas del análisis 
 
 1. Cargar y explorar
-  - Cargar y explorar plans, users_latam, usage.
-  - Visión clara de la estructura y tipos de columna de cada dataset. 
+      - Cargar y explorar plans, users_latam, usage.
+      - Visión clara de la estructura y tipos de columna de cada dataset. 
 2. Identificación de problemas de calidad
-  - Contar nulos, detectar sentinels, revisar fechas fuera de rango.
-  - Lista priorizada de problemas que pueden sesgar decisiones.
+      - Contar nulos, detectar sentinels, revisar fechas fuera de rango.
+      - Lista priorizada de problemas que pueden sesgar decisiones.
 3. Limpieza básica
-  - Reemplazar sentinels, convertir fechas, imputar o marcar NA según reglas.
-  - Datos consistentes y listos para análisis estadístico.   
+      - Reemplazar sentinels, convertir fechas, imputar o marcar NA según reglas.
+      - Datos consistentes y listos para análisis estadístico.   
 4. Summary statistics
-  - Revisar las medidas clave en variables categóricas y numéricas.
-  - Medidas clave (media, mediana, percentiles) que muestran el comportamiento típico y extremo
+      - Revisar las medidas clave en variables categóricas y numéricas.
+      - Medidas clave (media, mediana, percentiles) que muestran el comportamiento típico y extremo
 5. Visualización & outliers
-  - Creación de histogramas y boxplots.
-  - Visualización de sesgos, patrones de usuarios o datos atípicos.    
+      - Creación de histogramas y boxplots.
+      - Visualización de sesgos, patrones de usuarios o datos atípicos.    
 6. Segmentación
-  - Crear segmentaciones basadas en reglas claras; visualizar proporciones con countplots.
-  - Segmentos accionables que permiten diseñar ofertas, campañas y migraciones de plan.     
+      - Crear segmentaciones basadas en reglas claras; visualizar proporciones con countplots.
+      - Segmentos accionables que permiten diseñar ofertas, campañas y migraciones de plan.     
 7. Insight ejecutivo
-  - Redactar conclusiones y recomendaciones comerciales basadas en los pasos anteriores.
-  - Responder a las preguntas del negocio y proponer acciones concretas.  
+      - Redactar conclusiones y recomendaciones comerciales basadas en los pasos anteriores.
+      - Responder a las preguntas del negocio y proponer acciones concretas.  
 8. Publicación
-  - Subir tu notebook + README a GitHub.
-  - Entrega reproducible para revisión y ejecución por stakeholders.
+      - Subir tu notebook + README a GitHub.
+      - Entrega reproducible para revisión y ejecución por stakeholders.
 
 ## Principales Hallazgos
 
@@ -51,7 +51,7 @@ Este proyecto tiene como propósito analizar el comportamiento de los clientes d
 * Los adultos son el grupo etario más numeroso, mientras que los adultos mayores también representan un segmento relevante
 * Se detectaron usuarios con consumos muy altos de minutos, lo que sugiere potencial para planes especializados o corporativos
 
-##Recomendaciones de Negocio
+## Recomendaciones de Negocio
 
 * Diseñar planes diferenciados para clientes de alto uso (más minutos y beneficios exclusivos)
 * Crear estrategias de retención para clientes de uso medio, incentivando su migración a planes superiores
